@@ -3,6 +3,8 @@ import {Image, StyleSheet, View} from 'react-native';
 import Logo from '../assets/original_logo.png';
 import {Searchbar} from 'react-native-paper';
 import useQueryStore from '../store';
+import SearchIcon from '../assets/icons/search.png';
+import CloseIcon from '../assets/icons/x-circle.png';
 
 const Header = () => {
   const [value, setValue] = useState('');
@@ -10,6 +12,11 @@ const Header = () => {
 
   const onChangeSearch = query => {
     setValue(query);
+  };
+
+  const onClearSearch = () => {
+    setValue('');
+    setSearchText('');
   };
 
   const handleSearch = () => {
@@ -20,10 +27,13 @@ const Header = () => {
     <View style={styles.container}>
       <Image style={styles.tinyLogo} source={Logo} resizeMode="contain" />
       <Searchbar
+        icon={SearchIcon}
+        clearIcon={CloseIcon}
         style={styles.searchbar}
         placeholder="Search"
         value={value}
         onChangeText={onChangeSearch}
+        onClearIconPress={onClearSearch}
         onIconPress={handleSearch}
       />
     </View>

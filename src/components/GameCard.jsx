@@ -3,6 +3,7 @@ import {Image, StyleSheet, TouchableOpacity, View} from 'react-native';
 import NoImage from '../assets/no-image-placeholder.webp';
 import {Chip, Text} from 'react-native-paper';
 import {useNavigation} from '@react-navigation/native';
+import Routes from '../navigation/routes';
 
 const GameCard = ({game}) => {
   const navigation = useNavigation();
@@ -10,7 +11,7 @@ const GameCard = ({game}) => {
   return (
     <TouchableOpacity
       onPress={() => {
-        navigation.navigate('Details', {gameId: game.id});
+        navigation.navigate(Routes.DetailsScreen, {gameId: game.id});
       }}>
       <View style={styles.cardContainer}>
         <Image
