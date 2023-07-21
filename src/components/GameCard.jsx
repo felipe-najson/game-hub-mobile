@@ -1,9 +1,12 @@
 import React from 'react';
 import {Image, StyleSheet, TouchableOpacity, View} from 'react-native';
 import NoImage from '../assets/no-image-placeholder.webp';
-import {Chip, Text} from 'react-native-paper';
+import {Text} from 'react-native-paper';
 import {useNavigation} from '@react-navigation/native';
 import Routes from '../navigation/routes';
+import PlatformIconList from './PlatformIconList';
+import Emoji from './Emoji';
+import CriticScore from './CriticScore';
 
 const GameCard = ({game}) => {
   const navigation = useNavigation();
@@ -20,15 +23,16 @@ const GameCard = ({game}) => {
           resizeMode="cover"
         />
         <View style={styles.cardInfo}>
-          <Text variant="headlineMedium" style={styles.title}>
-            {game.name}
-          </Text>
-          <Chip
-            mode="outlined"
-            selectedColor={game.rating > 4 ? 'green' : 'red'}
-            style={styles.chip}>
-            {game.rating}
-          </Chip>
+          <View style={styles.titleContainer}>
+            <Text variant="headlineMedium" style={styles.title}>
+              {game.name}
+            </Text>
+            <CriticScore score={game.metacritic} />
+          </View>
+          <PlatformIconList
+            platforms={game.parent_platforms?.map(p => p.platform)}
+          />
+          <Emoji rating={game.rating_top} />
         </View>
       </View>
     </TouchableOpacity>
@@ -39,6 +43,7 @@ export default GameCard;
 
 const styles = StyleSheet.create({
   cardContainer: {
+    minHeight: 340,
     backgroundColor: '#202020',
     borderRadius: 8,
     shadowColor: '#000000',
@@ -56,6 +61,10 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 8,
     borderTopRightRadius: 8,
   },
+  titleContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
   cardInfo: {
     padding: 10,
     flex: 1,
@@ -63,6 +72,8 @@ const styles = StyleSheet.create({
   },
   title: {
     color: 'white',
+    flex: 1,
+    flexWrap: 'wrap',
   },
   chip: {
     width: 65,

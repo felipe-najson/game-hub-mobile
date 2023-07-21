@@ -8,7 +8,7 @@ const GameGrid = () => {
   const {isLoading, data: games} = useGames();
 
   return (
-    <ScrollView>
+    <ScrollView showsVerticalScrollIndicator={false}>
       {isLoading ? (
         <ActivityIndicator />
       ) : (
@@ -25,7 +25,7 @@ const GameGrid = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingHorizontal: 24,
+    paddingHorizontal: 16,
     paddingVertical: 8,
     rowGap: 16,
   },
