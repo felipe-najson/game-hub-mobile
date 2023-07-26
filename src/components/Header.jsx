@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import {Image, StyleSheet, View} from 'react-native';
 import Logo from '../assets/original_logo.png';
-import {Searchbar} from 'react-native-paper';
+import {Searchbar, Text} from 'react-native-paper';
 import useQueryStore from '../store';
 import SearchIcon from '../assets/icons/search.png';
 import CloseIcon from '../assets/icons/x-circle.png';
+import Config from 'react-native-config';
 
 const Header = () => {
   const [value, setValue] = useState('');
@@ -25,7 +26,12 @@ const Header = () => {
 
   return (
     <View style={styles.container}>
-      <Image style={styles.tinyLogo} source={Logo} resizeMode="contain" />
+      <View style={{flexDirection: 'column', rowGap: 0}}>
+        <Image style={styles.tinyLogo} source={Logo} resizeMode="contain" />
+        <Text variant="bodySmall" style={{color: 'white'}}>
+          {Config.ENV}
+        </Text>
+      </View>
       <Searchbar
         icon={SearchIcon}
         clearIcon={CloseIcon}
@@ -52,6 +58,7 @@ const styles = StyleSheet.create({
   tinyLogo: {
     width: 80,
     height: 60,
+    marginBottom: 0,
   },
   searchbar: {
     flex: 1,
