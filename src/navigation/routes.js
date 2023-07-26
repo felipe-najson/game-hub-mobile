@@ -3,6 +3,7 @@ const Routes = {
   DetailsScreen: 'DetailsScreen',
   ProfileScreen: 'ProfileScreen',
   HomeStack: 'HomeStack',
+  LoginScreen: 'LoginScreen',
 };
 
 export default Routes;

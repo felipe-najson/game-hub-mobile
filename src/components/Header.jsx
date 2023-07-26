@@ -2,10 +2,10 @@ import React, {useState} from 'react';
 import {Image, StyleSheet, View} from 'react-native';
 import Logo from '../assets/original_logo.png';
 import {Searchbar, Text} from 'react-native-paper';
-import useQueryStore from '../store';
 import SearchIcon from '../assets/icons/search.png';
 import CloseIcon from '../assets/icons/x-circle.png';
 import Config from 'react-native-config';
+import {useQueryStore} from '../store';
 
 const Header = () => {
   const [value, setValue] = useState('');

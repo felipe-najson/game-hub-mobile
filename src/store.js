@@ -1,8 +1,11 @@
 import {create} from 'zustand';
 
-const useQueryStore = create(set => ({
+export const useQueryStore = create(set => ({
   gameQuery: {},
   setSearchText: searchText => set(() => ({gameQuery: {searchText}})),
 }));
 
-export default useQueryStore;
+export const useAuthStore = create(set => ({
+  user: {},
+  setUser: user => set(() => ({user})),
+}));
