@@ -29,6 +29,7 @@ const PlataformIconList = ({platforms = []}) => {
       {platforms.map(platform => {
         return (
           <Image
+            key={platform.slug}
             source={iconMap[platform.slug]}
             style={styles.icon}
             tintColor={colors.white}

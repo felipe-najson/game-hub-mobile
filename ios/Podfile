@@ -25,8 +25,17 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'GameHubMobile' do
+abstract_target 'GameHubMobileCommonPods' do 
   config = use_native_modules!
+
+  target 'GameHubMobileDev' do
+  end
+ 
+  target 'GameHubMobileStg' do
+  end
+ 
+  target 'GameHubMobile' do
+  end
 
   # Flags change depending on the env values.
   flags = get_default_flags()
