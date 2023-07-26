@@ -8,4 +8,5 @@ export const useQueryStore = create(set => ({
 export const useAuthStore = create(set => ({
   user: {},
   setUser: user => set(() => ({user})),
+  logout: () => set(() => ({user: {}})),
 }));
