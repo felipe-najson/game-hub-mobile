@@ -1,8 +1,8 @@
 import React from 'react';
-import {ScrollView, StyleSheet, View} from 'react-native';
-import GameCard from './GameCard';
+import {FlatList, ScrollView, StyleSheet} from 'react-native';
 import {ActivityIndicator} from 'react-native-paper';
 import useGames from '../hooks/useGames';
+import GameCard from './GameCard';
 
 const GameGrid = () => {
   const {isLoading, data: games} = useGames();
@@ -12,11 +12,12 @@ const GameGrid = () => {
       {isLoading ? (
         <ActivityIndicator />
       ) : (
-        <View style={styles.container}>
-          {games?.results.map(game => (
-            <GameCard key={game.id} game={game} />
-          ))}
-        </View>
+        <FlatList
+          style={styles.container}
+          data={games?.results}
+          renderItem={({item}) => <GameCard game={item} />}
+          keyExtractor={item => item.id}
+        />
       )}
     </ScrollView>
   );
@@ -24,10 +25,8 @@ const GameGrid = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     paddingHorizontal: 16,
     paddingVertical: 8,
-    rowGap: 16,
   },
 });
 

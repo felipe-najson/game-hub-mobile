@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "391663437792",
+    "project_id": "game-hub-3827d",
+    "storage_bucket": "game-hub-3827d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391663437792:android:ea2ca760098bfbd6f28d85",
+        "android_client_info": {
+          "package_name": "com.gamehubmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391663437792-bhcn57rdolrrrnsdi63832nsthveqjfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYiyqeJ5MDvLuoGo3xEOgT5DqaH0XOeHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391663437792-bhcn57rdolrrrnsdi63832nsthveqjfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

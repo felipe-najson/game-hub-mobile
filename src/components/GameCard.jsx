@@ -54,6 +54,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 5.62,
     elevation: 8,
+    marginBottom: 16,
   },
   imagePlaceholder: {
     width: '100%',

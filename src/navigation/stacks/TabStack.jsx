@@ -1,16 +1,16 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import React from 'react';
 import {Image, StyleSheet} from 'react-native';
-import GameIcon from '../assets/icons/game-icon.png';
-import ProfileIcon from '../assets/icons/profile-icon.png';
-import ProfileScreen from '../components/ProfileScreen';
-import {colors} from '../styles/colors';
+import GameIcon from '../../assets/icons/game-icon.png';
+import ProfileIcon from '../../assets/icons/profile-icon.png';
+import ProfileScreen from '../../screens/ProfileScreen';
+import {colors} from '../../styles/colors';
 import HomeStack from './HomeStack';
-import Routes from './routes';
+import Routes from '../routes';
 
 const Tab = createBottomTabNavigator();
 
-const TabNavigator = () => {
+const TabStack = () => {
   return (
     <Tab.Navigator
       screenOptions={({route}) => getNavigatorScreenOptions(route)}>
@@ -20,7 +20,7 @@ const TabNavigator = () => {
   );
 };
 
-export default TabNavigator;
+export default TabStack;
 
 const getNavigatorScreenOptions = route => {
   return {

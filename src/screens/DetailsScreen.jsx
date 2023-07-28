@@ -1,12 +1,12 @@
 import React from 'react';
 import {Image, ScrollView, StyleSheet, View} from 'react-native';
-import {ActivityIndicator, Chip, Text} from 'react-native-paper';
+import {ActivityIndicator, Text} from 'react-native-paper';
 import useGame from '../hooks/useGame';
 import NoImage from '../assets/no-image-placeholder.webp';
 import {useWindowDimensions} from 'react-native';
 import RenderHtml from 'react-native-render-html';
-import PlataformIconList from './PlatformIconList';
-import CriticScore from './CriticScore';
+import PlataformIconList from '../components/PlatformIconList';
+import CriticScore from '../components/CriticScore';
 
 const DetailsScreen = ({route}) => {
   const {data: game, isLoading} = useGame(route?.params?.gameId);

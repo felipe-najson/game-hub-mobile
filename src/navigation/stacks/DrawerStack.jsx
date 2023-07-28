@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Button, Text} from 'react-native';
 import {Drawer} from 'react-native-drawer-layout';
 
-export default function DrawerExample() {
+export default function DrawerStack() {
   const [open, setOpen] = React.useState(false);
 
   return (
