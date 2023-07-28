@@ -26,12 +26,7 @@ const Header = () => {
 
   return (
     <View style={styles.container}>
-      <View style={{flexDirection: 'column', rowGap: 0}}>
-        <Image style={styles.tinyLogo} source={Logo} resizeMode="contain" />
-        <Text variant="bodySmall" style={{color: 'white'}}>
-          {Config.ENV}
-        </Text>
-      </View>
+      <Image style={styles.tinyLogo} source={Logo} resizeMode="contain" />
       <Searchbar
         icon={SearchIcon}
         clearIcon={CloseIcon}
