@@ -1,15 +1,16 @@
 import React, {useState} from 'react';
 import {Image, StyleSheet, View} from 'react-native';
 import Logo from '../assets/original_logo.png';
-import {Searchbar, Text} from 'react-native-paper';
+import {Searchbar} from 'react-native-paper';
 import SearchIcon from '../assets/icons/search.png';
 import CloseIcon from '../assets/icons/x-circle.png';
-import Config from 'react-native-config';
 import {useQueryStore} from '../store';
+import {useTheme} from 'react-native-paper';
 
 const Header = () => {
   const [value, setValue] = useState('');
   const setSearchText = useQueryStore(s => s.setSearchText);
+  const {colors} = useTheme();
 
   const onChangeSearch = query => {
     setValue(query);
@@ -26,7 +27,12 @@ const Header = () => {
 
   return (
     <View style={styles.container}>
-      <Image style={styles.tinyLogo} source={Logo} resizeMode="contain" />
+      <Image
+        style={styles.tinyLogo}
+        source={Logo}
+        resizeMode="contain"
+        tintColor={colors.onBackground}
+      />
       <Searchbar
         icon={SearchIcon}
         clearIcon={CloseIcon}

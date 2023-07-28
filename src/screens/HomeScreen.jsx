@@ -3,15 +3,14 @@ import GameGrid from '../components/GameGrid';
 import {StyleSheet, View} from 'react-native';
 import Header from '../components/Header';
 import {SafeAreaView} from 'react-native';
-
-const backgroundStyle = {
-  backgroundColor: '#151515',
-};
+import {useTheme} from 'react-native-paper';
 
 const HomeScreen = () => {
+  const {colors} = useTheme();
+
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <View style={styles.scrollView}>
+    <SafeAreaView style={{backgroundColor: colors.background}}>
+      <View style={[{backgroundColor: colors.background}, styles.container]}>
         <Header />
         <GameGrid />
       </View>
@@ -20,7 +19,7 @@ const HomeScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  scrollView: {height: '100%', backgroundColor: '#151515'},
+  container: {height: '100%'},
 });
 
 export default HomeScreen;

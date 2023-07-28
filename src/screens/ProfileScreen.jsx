@@ -1,15 +1,16 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Avatar, Button, Text} from 'react-native-paper';
-import {colors} from '../styles/colors';
 import {useAuthStore} from '../store';
 import _ from 'lodash';
 import auth from '@react-native-firebase/auth';
 import AvatarImage from '../assets/avatar.png';
 import LogoutIcon from '../assets/icons/logout.png';
 import Config from 'react-native-config';
+import {useTheme} from 'react-native-paper';
 
 const ProfileScreen = () => {
+  const {colors} = useTheme();
   const user = useAuthStore(s => s.user);
   const logout = useAuthStore(s => s.logout);
 
@@ -22,7 +23,7 @@ const ProfileScreen = () => {
   };
 
   return (
-    <View style={styles.container}>
+    <View style={[{backgroundColor: colors.background}, styles.container]}>
       <Text variant="bodySmall" style={styles.environment}>
         env: {Config.ENV}
       </Text>
@@ -45,7 +46,6 @@ const ProfileScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: colors.background,
     flex: 1,
     justifyContent: 'space-evenly',
     alignItems: 'center',
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     rowGap: 12,
   },
   title: {
-    color: colors.white,
+    // color: colors.white,
   },
   button: {
     marginTop: 36,
