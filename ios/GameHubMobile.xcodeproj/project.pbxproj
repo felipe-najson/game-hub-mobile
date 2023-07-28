@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* GameHubMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GameHubMobileTests.m */; };
+		0E5E1D5DFA5D2F35C1528A73 /* Pods_GameHubMobileCommonPods_GameHubMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2241DE34D261CA7D7E65CC68 /* Pods_GameHubMobileCommonPods_GameHubMobileTests.framework */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3548A58B552ED61B0A6A4589 /* libPods-GameHubMobileCommonPods-GameHubMobileDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CED5601BC76A7DBD1E127B /* libPods-GameHubMobileCommonPods-GameHubMobileDev.a */; };
-		443D1DEFC459A9E84FE98A90 /* libPods-GameHubMobileCommonPods-GameHubMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 977FF88312B39EFB74F39989 /* libPods-GameHubMobileCommonPods-GameHubMobileTests.a */; };
+		17E52C69C176B83D92782041 /* Pods_GameHubMobileCommonPods_GameHubMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972E211A4FE109DEC390A7D2 /* Pods_GameHubMobileCommonPods_GameHubMobile.framework */; };
+		44C3B9D0F8E8B31C0E632E82 /* Pods_GameHubMobileCommonPods_GameHubMobileStg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B7234FA4C9ADAF1849321 /* Pods_GameHubMobileCommonPods_GameHubMobileStg.framework */; };
 		44E926702A7023A70077A50C /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		44E926712A7023A70077A50C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		44E926752A7023A70077A50C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -21,9 +22,10 @@
 		44E926842A7024390077A50C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		44E926882A7024390077A50C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		44E926892A7024390077A50C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		44E926952A7334AB0077A50C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44E926942A7334AB0077A50C /* GoogleService-Info.plist */; };
+		44E926962A7334AB0077A50C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44E926942A7334AB0077A50C /* GoogleService-Info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		BEF728900BA93DA2B99116E3 /* libPods-GameHubMobileCommonPods-GameHubMobileStg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B670BFE40E9E711F67B4C7E0 /* libPods-GameHubMobileCommonPods-GameHubMobileStg.a */; };
-		F57D80DFE9E93DE16A2B6DBE /* libPods-GameHubMobileCommonPods-GameHubMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFFF81686513D4A2B37904D /* libPods-GameHubMobileCommonPods-GameHubMobile.a */; };
+		D40DADED513E248EBF952D87 /* Pods_GameHubMobileCommonPods_GameHubMobileDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064FC91E3D5E9AED85171874 /* Pods_GameHubMobileCommonPods_GameHubMobileDev.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 		00E356EE1AD99517003FC87E /* GameHubMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameHubMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GameHubMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameHubMobileTests.m; sourceTree = "<group>"; };
+		064FC91E3D5E9AED85171874 /* Pods_GameHubMobileCommonPods_GameHubMobileDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameHubMobileCommonPods_GameHubMobileDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0677A2AFEE84950BEEA7E31D /* Pods-GameHubMobileCommonPods-GameHubMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameHubMobileCommonPods-GameHubMobileTests.release.xcconfig"; path = "Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileTests/Pods-GameHubMobileCommonPods-GameHubMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* GameHubMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameHubMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GameHubMobile/AppDelegate.h; sourceTree = "<group>"; };
@@ -47,23 +50,23 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GameHubMobile/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GameHubMobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GameHubMobile/main.m; sourceTree = "<group>"; };
+		2241DE34D261CA7D7E65CC68 /* Pods_GameHubMobileCommonPods_GameHubMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameHubMobileCommonPods_GameHubMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B33B6E179BFFD7B520434E6 /* Pods-GameHubMobileCommonPods-GameHubMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameHubMobileCommonPods-GameHubMobile.debug.xcconfig"; path = "Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobile/Pods-GameHubMobileCommonPods-GameHubMobile.debug.xcconfig"; sourceTree = "<group>"; };
-		3AFFF81686513D4A2B37904D /* libPods-GameHubMobileCommonPods-GameHubMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GameHubMobileCommonPods-GameHubMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		427D0DAAE04F595A6137DC14 /* Pods-GameHubMobileCommonPods-GameHubMobileStg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameHubMobileCommonPods-GameHubMobileStg.debug.xcconfig"; path = "Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileStg/Pods-GameHubMobileCommonPods-GameHubMobileStg.debug.xcconfig"; sourceTree = "<group>"; };
 		44E9267D2A7023A70077A50C /* GameHubMobileDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameHubMobileDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E9267E2A7023A70077A50C /* GameHubMobileDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GameHubMobileDev-Info.plist"; path = "/Users/felipe.najson/Developer/GitHub/Personal/GameHubMobile/ios/GameHubMobileDev-Info.plist"; sourceTree = "<absolute>"; };
 		44E926902A7024390077A50C /* GameHubMobileStg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameHubMobileStg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E926912A7024390077A50C /* GameHubMobileStg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GameHubMobileStg-Info.plist"; path = "/Users/felipe.najson/Developer/GitHub/Personal/GameHubMobile/ios/GameHubMobileStg-Info.plist"; sourceTree = "<absolute>"; };
+		44E926942A7334AB0077A50C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4976DFFA8FE593DB23D24557 /* Pods-GameHubMobile-GameHubMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameHubMobile-GameHubMobileTests.release.xcconfig"; path = "Target Support Files/Pods-GameHubMobile-GameHubMobileTests/Pods-GameHubMobile-GameHubMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		52A4D15576DE38C051C973E0 /* Pods-GameHubMobileCommonPods-GameHubMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameHubMobileCommonPods-GameHubMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileTests/Pods-GameHubMobileCommonPods-GameHubMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		603B937FFDF4792E1C9B3576 /* Pods-GameHubMobileCommonPods-GameHubMobileStg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameHubMobileCommonPods-GameHubMobileStg.release.xcconfig"; path = "Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileStg/Pods-GameHubMobileCommonPods-GameHubMobileStg.release.xcconfig"; sourceTree = "<group>"; };
 		6DC30E0386E9FABF01A9BC1C /* Pods-GameHubMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameHubMobile.release.xcconfig"; path = "Target Support Files/Pods-GameHubMobile/Pods-GameHubMobile.release.xcconfig"; sourceTree = "<group>"; };
 		71123022464E14730D10D6B9 /* Pods-GameHubMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameHubMobile.debug.xcconfig"; path = "Target Support Files/Pods-GameHubMobile/Pods-GameHubMobile.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GameHubMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		977FF88312B39EFB74F39989 /* libPods-GameHubMobileCommonPods-GameHubMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GameHubMobileCommonPods-GameHubMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B670BFE40E9E711F67B4C7E0 /* libPods-GameHubMobileCommonPods-GameHubMobileStg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GameHubMobileCommonPods-GameHubMobileStg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		972E211A4FE109DEC390A7D2 /* Pods_GameHubMobileCommonPods_GameHubMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameHubMobileCommonPods_GameHubMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C690FF3B1BEA53873983A86F /* Pods-GameHubMobileCommonPods-GameHubMobileDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameHubMobileCommonPods-GameHubMobileDev.release.xcconfig"; path = "Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileDev/Pods-GameHubMobileCommonPods-GameHubMobileDev.release.xcconfig"; sourceTree = "<group>"; };
-		D4CED5601BC76A7DBD1E127B /* libPods-GameHubMobileCommonPods-GameHubMobileDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GameHubMobileCommonPods-GameHubMobileDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27B7234FA4C9ADAF1849321 /* Pods_GameHubMobileCommonPods_GameHubMobileStg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameHubMobileCommonPods_GameHubMobileStg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7710B511628E7DEE2FA67AC /* Pods-GameHubMobileCommonPods-GameHubMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameHubMobileCommonPods-GameHubMobile.release.xcconfig"; path = "Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobile/Pods-GameHubMobileCommonPods-GameHubMobile.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EEBDB63982FAD35A635458BA /* Pods-GameHubMobileCommonPods-GameHubMobileDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameHubMobileCommonPods-GameHubMobileDev.debug.xcconfig"; path = "Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileDev/Pods-GameHubMobileCommonPods-GameHubMobileDev.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				443D1DEFC459A9E84FE98A90 /* libPods-GameHubMobileCommonPods-GameHubMobileTests.a in Frameworks */,
+				0E5E1D5DFA5D2F35C1528A73 /* Pods_GameHubMobileCommonPods_GameHubMobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57D80DFE9E93DE16A2B6DBE /* libPods-GameHubMobileCommonPods-GameHubMobile.a in Frameworks */,
+				17E52C69C176B83D92782041 /* Pods_GameHubMobileCommonPods_GameHubMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3548A58B552ED61B0A6A4589 /* libPods-GameHubMobileCommonPods-GameHubMobileDev.a in Frameworks */,
+				D40DADED513E248EBF952D87 /* Pods_GameHubMobileCommonPods_GameHubMobileDev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF728900BA93DA2B99116E3 /* libPods-GameHubMobileCommonPods-GameHubMobileStg.a in Frameworks */,
+				44C3B9D0F8E8B31C0E632E82 /* Pods_GameHubMobileCommonPods_GameHubMobileStg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +143,10 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				3AFFF81686513D4A2B37904D /* libPods-GameHubMobileCommonPods-GameHubMobile.a */,
-				D4CED5601BC76A7DBD1E127B /* libPods-GameHubMobileCommonPods-GameHubMobileDev.a */,
-				B670BFE40E9E711F67B4C7E0 /* libPods-GameHubMobileCommonPods-GameHubMobileStg.a */,
-				977FF88312B39EFB74F39989 /* libPods-GameHubMobileCommonPods-GameHubMobileTests.a */,
+				972E211A4FE109DEC390A7D2 /* Pods_GameHubMobileCommonPods_GameHubMobile.framework */,
+				064FC91E3D5E9AED85171874 /* Pods_GameHubMobileCommonPods_GameHubMobileDev.framework */,
+				D27B7234FA4C9ADAF1849321 /* Pods_GameHubMobileCommonPods_GameHubMobileStg.framework */,
+				2241DE34D261CA7D7E65CC68 /* Pods_GameHubMobileCommonPods_GameHubMobileTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				44E926942A7334AB0077A50C /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* GameHubMobile */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* GameHubMobileTests */,
@@ -214,7 +218,7 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				A096BCC04405E326C0C3C38B /* [CP] Embed Pods Frameworks */,
-				07BBAA1A0C97716D8D745A11 /* [CP] Copy Pods Resources */,
+				152F40DE744C122381CD6155 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +241,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				53FD2300A43D8D2D069049C0 /* [CP] Embed Pods Frameworks */,
-				00B1337EAF19E6496B18B345 /* [CP] Copy Pods Resources */,
+				55DDAE68E6CBFD889515D7BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,7 +263,7 @@
 				44E926742A7023A70077A50C /* Resources */,
 				44E926772A7023A70077A50C /* Bundle React Native code and images */,
 				44E926782A7023A70077A50C /* [CP] Embed Pods Frameworks */,
-				44E926792A7023A70077A50C /* [CP] Copy Pods Resources */,
+				0CF5E8F51526C35D81C67F7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,7 +285,7 @@
 				44E926872A7024390077A50C /* Resources */,
 				44E9268A2A7024390077A50C /* Bundle React Native code and images */,
 				44E9268B2A7024390077A50C /* [CP] Embed Pods Frameworks */,
-				44E9268C2A7024390077A50C /* [CP] Copy Pods Resources */,
+				DD45A2C8E5AB91421A0DE11F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -344,6 +348,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				44E926952A7334AB0077A50C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +358,7 @@
 			files = (
 				44E926752A7023A70077A50C /* LaunchScreen.storyboard in Resources */,
 				44E926762A7023A70077A50C /* Images.xcassets in Resources */,
+				44E926962A7334AB0077A50C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,23 +374,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00B1337EAF19E6496B18B345 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobile/Pods-GameHubMobileCommonPods-GameHubMobile-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobile/Pods-GameHubMobileCommonPods-GameHubMobile-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobile/Pods-GameHubMobileCommonPods-GameHubMobile-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -401,7 +390,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		07BBAA1A0C97716D8D745A11 /* [CP] Copy Pods Resources */ = {
+		0CF5E8F51526C35D81C67F7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileDev/Pods-GameHubMobileCommonPods-GameHubMobileDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileDev/Pods-GameHubMobileCommonPods-GameHubMobileDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileDev/Pods-GameHubMobileCommonPods-GameHubMobileDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		152F40DE744C122381CD6155 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -514,23 +520,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileDev/Pods-GameHubMobileCommonPods-GameHubMobileDev-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		44E926792A7023A70077A50C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileDev/Pods-GameHubMobileCommonPods-GameHubMobileDev-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileDev/Pods-GameHubMobileCommonPods-GameHubMobileDev-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileDev/Pods-GameHubMobileCommonPods-GameHubMobileDev-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		44E926802A7024390077A50C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -605,23 +594,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileStg/Pods-GameHubMobileCommonPods-GameHubMobileStg-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		44E9268C2A7024390077A50C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileStg/Pods-GameHubMobileCommonPods-GameHubMobileStg-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileStg/Pods-GameHubMobileCommonPods-GameHubMobileStg-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileStg/Pods-GameHubMobileCommonPods-GameHubMobileStg-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		53FD2300A43D8D2D069049C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -637,6 +609,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobile/Pods-GameHubMobileCommonPods-GameHubMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55DDAE68E6CBFD889515D7BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobile/Pods-GameHubMobileCommonPods-GameHubMobile-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobile/Pods-GameHubMobileCommonPods-GameHubMobile-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobile/Pods-GameHubMobileCommonPods-GameHubMobile-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7C9040AFE9568BEB3520378F /* [CP] Check Pods Manifest.lock */ = {
@@ -676,6 +665,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileTests/Pods-GameHubMobileCommonPods-GameHubMobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD45A2C8E5AB91421A0DE11F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileStg/Pods-GameHubMobileCommonPods-GameHubMobileStg-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileStg/Pods-GameHubMobileCommonPods-GameHubMobileStg-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameHubMobileCommonPods-GameHubMobileStg/Pods-GameHubMobileCommonPods-GameHubMobileStg-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -1014,6 +1020,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
@@ -1080,6 +1094,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
