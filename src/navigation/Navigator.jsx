@@ -11,7 +11,7 @@ export default function Navigator() {
 
   return (
     <NavigationContainer ref={navigator}>
-      {_.isEmpty(user) ? <AuthStack /> : <TabStack />}
+      {_.isNull(user) ? <AuthStack /> : <TabStack />}
     </NavigationContainer>
   );
 }

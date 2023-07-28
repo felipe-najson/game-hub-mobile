@@ -4,17 +4,27 @@ import {Button, Text} from 'react-native-paper';
 import {colors} from '../styles/colors';
 import {useAuthStore} from '../store';
 import _ from 'lodash';
+import auth from '@react-native-firebase/auth';
 
 const ProfileScreen = () => {
   const user = useAuthStore(s => s.user);
   const logout = useAuthStore(s => s.logout);
 
+  const handleLogout = () => {
+    auth()
+      .signOut()
+      .then(() => {
+        logout();
+        console.warn('User signed out!');
+      });
+  };
+
   return (
     <View style={styles.container}>
       <Text variant="headlineLarge" style={styles.title}>
-        {_.isEmpty(user) ? 'No user' : user.name}
+        {_.isNull(user) ? 'No user' : user.name}
       </Text>
-      <Button mode="contained" onPress={logout}>
+      <Button mode="contained" onPress={handleLogout}>
         Logout
       </Button>
     </View>

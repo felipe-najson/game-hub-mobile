@@ -6,7 +6,7 @@ export const useQueryStore = create(set => ({
 }));
 
 export const useAuthStore = create(set => ({
-  user: {},
+  user: null,
   setUser: user => set(() => ({user})),
-  logout: () => set(() => ({user: {}})),
+  logout: () => set(() => ({user: null})),
 }));
